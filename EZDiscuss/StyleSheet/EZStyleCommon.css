@@ -1,0 +1,73 @@
+﻿/* Buttons */
+.buttonCommon { height:30px; width:180px; background-color:darkgreen; color:white; font-weight:bold; font-family:'Segoe UI', Verdana, Helvetica, 'Courier New', Arial;
+}
+
+/* Labels */
+.labelCommon { font-family:'Segoe UI', Verdana, Helvetica, 'Courier New', Arial; font-size:15px; color:black; height:20px;
+}
+.labelCommonOrange { height:30px; font-family: 'Segoe UI', Verdana, Helvetica, 'Courier New', Arial; font-weight:100; font-size:17px; color: orange;
+}
+.sectionHeader { font-family:'Segoe UI', Verdana, Helvetica, 'Courier New', Arial ; font-size:24px; color:black; font-weight:bold; padding:5px;
+}
+
+/* Textboxes*/
+.textboxCommon { font-family:'Segoe UI', Verdana, Helvetica, 'Courier New', Arial; font-size:15px; color:black; font-weight:bold; height:20px;
+}
+
+/* Fonts */
+.smallFont { font-family:Arial; font-size:8pt;}
+.smallFontBlue { font-family:Arial; font-size:8pt;color:blue;}
+.nameRed { font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:8pt;color:red;}
+.nameBlue { font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:8pt;color:blue;}
+.nameWhite { font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:8pt;color:white;}
+.nameYellow { font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:8pt;color:yellow;}
+.nameOrange { font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:8pt;color:orange;}
+.smallFontWhite { font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:8pt;color:white;}
+.smallFontWhiteBold { font-family:Arial; font-size:8pt;color:white; font-weight:bold;}
+.masterHeader { font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:10pt;color:white; font-weight:bold; position:absolute; right: 100px; padding:0px;}
+.masterHeaderBig { font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:20pt;color:white; font-weight:bold; position:relative;  padding:5px;}
+.sectionHeader {font-size:14pt; font-family: Arial; font-weight: bold; color:black;}
+.displayFont{font-family:'Segoe UI', Verdana, Helvetica, 'Courier New', Arial; font-weight: bold; font-size: 10px; background-color: beige;color: red; margin-top: 1px;margin-bottom: 1px;height:30px;text-align: left;}
+.topicTitle{font-family:'Segoe UI', Verdana, Helvetica, 'Courier New', Arial; font-weight: bolder; font-size: 18px; margin-top: 1px; margin-bottom: 1px;color: red;background-color: cornsilk; text-align: center;}
+.participant {position:absolute; font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:7pt; font-style:italic;}
+.whiteFont { color: white}
+
+/* Messages */
+.errorMessage8 {font-family:'Segoe UI', Verdana, Helvetica, 'Courier New', Arial; color:red; font-size:8pt;
+}
+.errorMessage10 {font-family:'Segoe UI', Verdana, Helvetica, 'Courier New', Arial; color:red; font-size:10pt;
+}
+.successMessage { font-family:'Segoe UI', Verdana, Helvetica, 'Courier New', Arial; color:green; font-size:12px;
+}
+.validatorMessage { font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:7pt;color:red;                        
+}
+.textMessage { font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:10pt;
+}
+.bigFont16 {font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:16px; font-weight: bold; color:black;
+}
+.Font16 {font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:16px; color:black;
+}
+.bigFont18 {font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:18px; font-weight: bold; color:black;
+}
+.Font18 {font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:18px; color:black;
+}
+.bigFont20 {font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:20px; font-weight: bold; color:black;
+}
+.bigFont25 {font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:25px; font-weight: bold; color:black;
+}
+.bigFont30 {font-family:'Segoe UI', Verdana, Helvetica, 'Courier New',Arial; font-size:30px; font-weight: bold; color:black;
+}
+
+/* Tables */
+.pad5 { padding:5px;
+}
+.pad10 { padding:10px;
+}
+
+    /*.labelCommon { height:30px; font-family:Arial; font-weight:100; font-size:17px; color: black;
+    }
+    .textboxCommon { height:30px; font-family:Arial; font-weight:700; font-size:17px; color: black;
+    }
+    .messageCommon { height:10px; font-family:Arial; font-weight:100; font-size:10px;
+    }*/
+

@@ -1,0 +1,50 @@
+﻿body {width: 1000px; margin: 0 auto; background-color:#ffffff;}
+
+/* Frames */
+.masterHeaderFrame {width:1000px; height:50px; background-color: lightgreen; border-style:solid; border-width:thin; }
+.content { width:1000px; height: 700px; position:relative; background-color:azure;}
+.alignRight {position:absolute; right: 0px; width:500px;}
+.centerFrame {margin-left:auto; margin-right:auto;}
+.noResize { resize: none;}
+.footer {width:1000px; height:50px; background-color: darkgreen; color: white; border-style:solid; border-width:thin; }
+
+/* User Controls Frames */
+.discussionBoard {width:1000px; height:800px; position:relative; background-color: white; border-style: solid; border-width:thin;}
+.Groups{width:300px; height:100px; position:absolute; left:0px; top:0px; background-color:azure; border-style:solid; border-width:thin; border-color:darkblue; padding-left:5px; }
+.Topics{width:298px; height:450px; position:absolute; left:0px; top:100px; background-color:azure; border-style:solid; border-width:thin; border-color:darkblue; overflow:auto; padding-left:2px;}
+.MessagesOutsideContainer{width:700px; height:550px; position:absolute; left:300px; top:0px; background-color:gray; border-style: solid; border-width:thin; border-color:red; }
+.TopicTitle{width:530px; height:30px; position:absolute; left:85px; top:65px; background-color:lightgreen; border-style:solid; border-width:thin; border-color:darkblue; text-align:center; border-top-left-radius:10px; border-top-right-radius: 10px; }
+.MessagesInsideContainer{width:530px; height:390px; position:absolute; left:85px; top:95px; background-color:white; border-style: solid; border-width:thin; border-color:darkmagenta; overflow: auto; }
+.createTopic {width:300px; height:160px; position:absolute; left:0px; bottom:85px; border-style:solid; border-width:thin; border-color: green; }
+.createMessage {width:700px; height:160px; position:absolute; left:300px; bottom:85px; background-color:khaki; font-family:'Segoe UI', Verdana, Helvetica, 'Courier New', Arial; font-size:7pt; border:solid; border-width:thin;}
+.createPrivateMessage {width:700px; height:60px; position:absolute; left:300px; bottom:70px; background-color:#FFFFFF; font-family:'Segoe UI', Verdana, Helvetica, 'Courier New', Arial; font-size:7pt; border:solid; border-width:thin;}
+
+    
+/* Messages Section */
+/*#messages {width:520px; height:380px; position:absolute; left: 130px; top:120px; overflow:auto;}*/
+#m1{ left: 30px; top:10px;}
+#m2{ left: 140px; top:10px;}
+#m3{ left: 250px; top:10px;}
+#m4{ left: 365px; top:10px;}
+#m5{ left: 483px; top:10px;}
+#m6{ right: 55px; top:10px;}
+#m7{ right: 35px; top:100px;}
+#m8{ right: 35px; top:200px;}
+#m9{ right: 35px; top:300px;}
+#m10{ right: 35px; top:400px;}
+#m11{ right: 55px; bottom:20px;}
+#m12{ left: 483px; bottom:20px;}
+#m13{ left: 365px; bottom:20px;}
+#m14{ left: 250px; bottom:20px;}
+#m15{ left: 140px; bottom:20px;}
+#m16{ left: 30px; bottom:20px;}
+#m17{ left: 10px; top:400px;}
+#m18{ left: 10px; top:300px;}
+#m19{ left: 10px; top:200px;}
+#m20{ left: 10px; top:100px;}
+
+.message {font-family: 'Segoe UI', Verdana, Helvetica, 'Courier New',  Arial; font-weight: 100; font-size: 8pt; color: blue;}
+
+.mprofile{font-family: 'Segoe UI', Verdana, Helvetica, 'Courier New', Arial; font-weight: 100; font-size: 10px; color: blue;}
+
+

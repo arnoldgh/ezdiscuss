@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="EZDiscuss.Site" %>
+
+<%@ Register Src="~/UserControls/ucLogin.ascx" TagPrefix="uc1" TagName="ucLogin" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">    
+    </asp:ContentPlaceHolder>
+
+    <link rel="stylesheet" type="text/css" href="StyleSheet/EZStyle.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="content">
+        <div id="hdr" class="masterHeaderFrame">
+            <div id="divLogo" style="position:absolute; top:0px; left:0px;">
+                <table>
+                    <tr>
+                        <td><asp:Image ID="iLogo" runat="server" AlternateText="EZDiscuss Logo" ImageUrl="~/Images/people.png" /></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="divLogin" style="position:absolute; top:0px; right:0px;">
+                <uc1:ucLogin ID="ucLogin1" runat="server" />                    
+            </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="c" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+
+                <!-- footer -->    
+        <div class="footer">
+            This is the footer for EZDiscuss
+        </div> 
+    </div>
+    </form>
+</body>
+</html>

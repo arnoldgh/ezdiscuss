@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMember.master.cs" Inherits="EZDiscuss.SiteMember" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+
+    <script src="Scripts/jquery-2.1.1.min.js"></script>
+    <script src="Scripts/jquery-ui-1.10.4.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="StyleSheet/EZStyle.css" />
+    <link rel="stylesheet" type="text/css" href="StyleSheet/EZStyleCommon.css" />
+
+    <style>
+        .headerLink { font-weight: bold; color: darkgreen; width:380px; height: auto; padding:5px;
+                      font-family: 'Segoe UI', Verdana, Arial; font-size: 15px; float: right;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <%--<asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>--%>
+        <ajaxToolkit:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server"></ajaxToolkit:ToolkitScriptManager>
+    <div class="content">
+        <div id="hdr" class="masterHeaderFrame">
+            <div id="divLogo" style="float:left;">
+                <asp:Label ID="lE" runat="server" Text="EZDiscuss" CssClass="bigFont25"></asp:Label>
+                <br />
+                &nbsp;&nbsp;&nbsp;<asp:Label ID="lEZ" runat="server" Text="Boardroom discussion...reborn." Font-Italic="true" CssClass="smallFont"></asp:Label>
+            </div>                   
+            
+            <div class="headerLink">
+                <asp:LinkButton ID="lnkDiscussionBoard" runat="server" Text="Discussion Board" OnClick="lnkDiscussionBoard_Click" CausesValidation="false"></asp:LinkButton>&nbsp;&nbsp;&nbsp;
+                <asp:LinkButton ID="lnkCreateGroup" runat="server" Text="Create Group" OnClick="lnkCreateGroup_Click" CausesValidation="false"></asp:LinkButton>&nbsp;&nbsp;&nbsp;
+                <asp:LinkButton ID="lnkProfile" runat="server" Text="Profile" OnClick="lnkProfile_Click" CausesValidation="false"></asp:LinkButton>&nbsp;&nbsp;&nbsp;
+                <asp:LinkButton ID="lnkLogout" runat="server" Text="Logout" OnClick="lnkLogout_Click" CausesValidation="false"></asp:LinkButton>
+            </div>    
+
+        </div>
+        <div class="centerFrame">
+            <asp:ContentPlaceHolder ID="c" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div class="footer">
+           <asp:HyperLink ID="hlPrivacy" runat="server" Text="Privacy Statement" NavigateUrl="TermsAndConditions.html"></asp:HyperLink>
+        </div> 
+    </div>
+    </form>
+</body>
+</html>
